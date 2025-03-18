@@ -1,0 +1,4 @@
+- si (run step by step)
+- i f (info register)
+- x/10gx $rsp (10 value in stack 64 bit)
+- x/10gx $esp (10 value in stack 32 bit)

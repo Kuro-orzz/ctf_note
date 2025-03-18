@@ -1,0 +1,68 @@
+file 
+eog 
+exiftool
+ls -la
+strings -n 10 [file]
+binwalk
+binwalk --dd='.*' [file]
+xxd (Hxd)
+base64
+unrar x file.jpg
+
+tool: wireshark
+
+grep -r [content]: file all content recursive
+
+git show
+git log [file] (show more detail)
+https://github.com/denny0223/scrabble/blob/master/scrabble
+
+zsteg -a file.[png | gmp] (sudo apt install ruby) (sudo gem install zsteg)
+stegsolve (need to learn)
+steghide extract -sf file.jpg
+mmls [file]
+fls -o [num] [file] [sub file]
+
+
+Tập tin dạng nén: zip, tar, gzip
+Ảnh: jpg, gif, png, bmp
+Gói tin: pcap, pcappng
+Video: mp3, wav
+
+Autopsy: disk.img file
+List of file signature: https://www.garykessler.net/library/file_sigs.html
+Exiftool Samsung timestamp modified: https://www.epochconverter.com/?prefs (bit of last xxd)
+Cyberchef: swap endianness(swap bit)
+
+Big endian: default (hex)
+Little endian: reverse of big endian (hex)
+
+
+
+window log event:
+- event id 1074, source user32 (comment)   t00l_81ba3fe9}
+- event id 4657, keyword shutdown.exe (computer was shutdown when turn on)     1s_a_pr3tty_us3ful_
+- event id 1033, keyword == (because they install software) picoCTF{Ev3nt_vi3wv3r_
+
+picoCTF{Ev3nt_vi3wv3r_1s_a_pr3tty_us3ful_t00l_81ba3fe9}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

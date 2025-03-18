@@ -1,0 +1,28 @@
+Substitution Cipher
+- caesar cipher
+transposition cipher
+- mã hóa Vigenère
+
+
+
+python:
+
+- "".join(c for c in a)
+
+python note:
+
+chr(i): ascii to char
+ord(i): char to ascii
+bytes.fromhex(s): hex to bytes
+s.hex(): bytes to hex
+base64.b64encode(b's'): encode to base64 (import base64)
+bytes_to_long():    (from Crypto.Util.number import *) (install lib PyCryptodome)
+long_to_bytes():
+
+
+
+hashcrack: 
+- hash-identifier
+- https://md5hashing.net/hash/haval256%2C3
+- password123 letmein qwerty098
+- https://10015.io/tools/sha256-encrypt-decrypt

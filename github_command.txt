@@ -1,0 +1,13 @@
+git config --global user.name "........."
+git config --global user.email "..........."
+gh auth login
+
+- git commit -a:
+- git log
+- git log -p --patch: show dif between each commit
+
+- git diff COMMIT : to compare current with COMMIT
+- git diff COMMIT1 COMMIT2: to compare COMMIT1 and COMMIT2
+- git diff COMMIT1 COMMIT2 FILE: print different to file
+
+- git merge:

@@ -1,0 +1,7 @@
+gcc -std=c99 -no-pie -fno-pie -fno-stack-protector -Wl,-z,norelro -D_FORTIFY_SOURCE=0
+
+buffer overflow
+ROP (return oriented programming)
+format string vulnerable
+
+if(fortify is unenabled and other is enable) we can compare offset

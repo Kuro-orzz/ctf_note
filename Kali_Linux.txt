@@ -1,0 +1,69 @@
+Kali Linux:
+
+- passwd (to change password)
+- [command] -h, -?, --help
+- locate [name] (updated once a day)
+- whereis [name] (find binary file + man page)
+- which [name] (find binary file)
+- find [directory] [options] [expression]
++ -type f (search ordinary file)
++ -name (search by name file)
+- cat > [file] (make file and all type next will be write in file, ctrl+D to end)
+- rmdir [dir] (remove file that empty else warning, safe remove than -r)
+- nl [name] (display in terminal with number of line)
+- sed s/[oldStr]/[newStr]/[option] [file] > [file] (replace string)
++ /g if want remove all global
++ any number of occurrence want to replace
+- more [file] (display large file)
+- less [file] (display large file)
++ type / then type word want to search, type n to search next
+- wc -l [file] (count number of line)
+
+Network:
+- ifconfig eth0 192.169.181.115 [name] (change IP-inet, netmask, broadcast)
+- ifconfig eth0 down
+  ifconfig eth0 hw ether 00:11:22:33:44:55  (spoof MAC address)
+  ifconfig eth0 up
+- dhclient eth0 (send request for IP and confirm the IP assignment to the DHCP)
+- dig [web.com] [option] (info about dns)
+		ns (nameserver)
+		mx (mail exchange server)
+
+Adding and removing software:
+- apt-cache search [keyword] (search in the package)
+- apt-get install [package] (install package)
+- apt-get remove [package] (remove package) 
+
+
+
+Vim:
+- i: insert (edit)
+- h, j, k, l: arrow left, down, up, right
+- w: begin of next word		e: end of next word	b: begin of backward
+- [number]i[text] + esc: insert [number] times 
+
+
+for file in *.txt; do mv ${file} ${file%.txt}.cpp; done
+
+
+Set up new vm:
+- rtl8812au: (setup wifi router)
++ https://github.com/aircrack-ng/rtl8812au
+
+- web: cyberchef, hexedit
+- tool: 
++ cần install: eog, zsteg, gdb-peda(in my git), sonic visualizer, vscode, ida-free
++ có sẵn: wireshark, binwalk 
+
+
+setting vim: 
+	cd ~/.vimrc
+	set tabstop=4
+	syntax on " Syntax highlighting
+	set showmatch " Shows matching brackets
+	set ruler " Always shows location in file (line#)
+	set smarttab " Autotabs for certain code
+	set shiftwidth=4
+setting nano:
+	cd ~/.nanorc
+	set tabsize 4
